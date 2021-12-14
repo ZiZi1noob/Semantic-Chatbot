@@ -1,0 +1,91 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Hello",
+                "How are you",
+                "Good day",
+                "Are you there?"
+            ],
+            "responses": [
+                "Hey there!",
+                "Hi!",
+                "Hi there, good to see you!",
+                "Hello! How are you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "Goodbye", "See you later"],
+            "responses": [
+                "Have a nice day~",
+                "Bye! See you later~",
+                "Good night!"
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Tell me a joke!",
+                "You got a joke?",
+                "Could you tell me something funny?"
+            ],
+            "responses": [
+                "Hear about the new restaurant called Karma? There’s no menu: You get what you deserve.",
+                "What starts with E, ends with E, and has only 1 letter in it? An Envelope.",
+                "How does the ocean say hello? It waves."
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "How is the weather?",
+                "What's the weather like?",
+                "Is the weather nice today?"
+            ],
+            "responses": [
+                "It's lovely day!",
+                "Wonderful!",
+                "Sunny as always!"
+            ]
+        },
+        {
+            "tag": "movie",
+            "patterns": [
+                "What's your favorite movie?",
+                "Can you recommend me a movie?",
+                "What's the film you like most?",
+                "Do you have any good movie for me?",
+                "Which film would you suggest?",
+                "I'd like to watch a movie. Any ideas?"
+            ],
+            "responses": [
+                "'The Silence of the Lambs'. It is a classic.",
+                "Try 'The Dark Knight'. Especially if you're an action or comics fan.",
+                "I heard 'Fight Club' is pretty good.",
+                "'Roman Holiday' is my favorite."
+            ]
+        },
+        {
+            "tag": "positive",
+            "patterns": [],
+            "responses":[
+                "I'm glad to hear that!",
+                "That's great! Let's watch a movie to enjoy the lovely day!",
+                "Keep it up!"
+            ]
+        },
+        {
+            "tag": "negative",
+            "patterns": [],
+            "responses": [
+                "I'm sorry to hear that...",
+                "I'm sorry to hear that. Shall we watch a movie to cheer you up?",
+                "I'm shall you'll get over this. I have faith in you!"
+            ]
+        }
+    ]
+}
